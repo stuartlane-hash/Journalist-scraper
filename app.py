@@ -333,4 +333,4 @@ if st.session_state.enriched_results:
 
     st.markdown("---")
     safe_topic = re.sub(r"[^w-]", "_", topic.lower())
-    timestamp = datetime.now().strftim
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
